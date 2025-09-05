@@ -1,0 +1,24 @@
+.programs {
+  text-align: center;
+}
+
+.program-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.program {
+  background: #f1f1f1;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.program:hover {
+  background: #ffd700;
+  color: black;
+}
